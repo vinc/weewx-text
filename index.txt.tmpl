@@ -1,0 +1,20 @@
+$station.location ($station.latitude_f, $station.longitude_f)
+
+Weather Conditions at $current.dateTime
+  Time:        $current.dateTime
+  Temperature: $current.outTemp
+  Wind Chill:  $current.windchill
+  Heat Index:  $current.heatindex
+  Dewpoint:    $current.dewpoint
+  Humidity:    $current.outHumidity
+  Barometer:   $current.barometer
+  Wind:        $current.windSpeed from $current.windDir
+  Rain Rate:   $current.rainRate
+
+Daily Weather Summary as of $current.dateTime
+  Min Temperature: $day.outTemp.min at $day.outTemp.mintime
+  Max Temperature: $day.outTemp.max at $day.outTemp.maxtime
+  Min Barometer:   $day.barometer.min at $day.barometer.mintime
+  Max Barometer:   $day.barometer.max at $day.barometer.maxtime
+  Max Wind:        $day.wind.max from $day.wind.gustdir at $day.wind.maxtime
+  Rain:            $day.rain.sum
