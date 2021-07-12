@@ -15,14 +15,14 @@ class TextInstaller(ExtensionInstaller):
             author_email="v@vinc.cc",
             config={
                 "StdReport": {
-                    "text": {
-                        "skin": 'text',
+                    "Text": {
+                        "skin": 'Text',
                         "HTML_ROOT": 'text',
                     }
                 }
             },
-            files=[("skins/text",
-                    ["skins/text/index.txt.tmpl",
-                     "skins/text/skin.conf"]),
+            files=[("skins/Text",
+                    ["skins/Text/index.txt.tmpl",
+                     "skins/Text/skin.conf"]),
                    ]
         )
