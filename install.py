@@ -22,7 +22,7 @@ class TextInstaller(ExtensionInstaller):
                 }
             },
             files=[("skins/Text",
-                    ["skins/Text/index.txt.tmpl",
+                    ["skins/Text/weather.txt.tmpl",
                      "skins/Text/skin.conf"]),
                    ]
         )
