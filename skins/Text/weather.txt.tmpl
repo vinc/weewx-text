@@ -1,14 +1,15 @@
 $station.location ($station.latitude_f, $station.longitude_f)
 
 Weather Conditions at $current.dateTime.format("%F %T %Z")
-  Temperature: $current.outTemp
-  Wind Chill:  $current.windchill
-  Heat Index:  $current.heatindex
-  Dewpoint:    $current.dewpoint
-  Humidity:    $current.outHumidity
-  Barometer:   $current.barometer
-  Wind:        $current.windSpeed from $current.windDir
-  Rain Rate:   $current.rainRate
+  Temperature:     $current.outTemp
+  Wind Chill:      $current.windchill
+  Heat Index:      $current.heatindex
+  Dewpoint:        $current.dewpoint
+  Humidity:        $current.outHumidity
+  Barometer:       $current.barometer
+  Wind:            $current.windSpeed from $current.windDir
+  Rain Rate:       $current.rainRate
+  Radiation:       $current.radiation
 
 Daily Weather Summary as of $current.dateTime.format("%F %T %Z")
   Min Temperature: $day.outTemp.min at $day.outTemp.mintime
